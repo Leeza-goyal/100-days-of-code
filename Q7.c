@@ -1,13 +1,18 @@
 #include<stdio.h>
 int main()
 {
-int a=20;
-int b=30;
-printf("original value of a is %d\n", a);
-printf("original value of b is %d\n", b);
+int a;
+int b;
+printf("enter value of a\n");
+scanf("%d", &a);
+printf("enter value of b\n");
+scanf("%d", &b);
+printf("before swapping: a=%d,b=%d\n",a,b);
 printf("after swaping\n");
-printf("new value of a is %d\n" , b);
-printf("new value of b is %d\n", a);
+a=a+b;
+printf("value of b is %d\n" , a-b);
+b=a-b;
+printf("value of a is %d\n",a-b );
 return 0;
 
 }
