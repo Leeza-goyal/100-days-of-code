@@ -1,43 +1,25 @@
-#include<stdio.h>
-int main ()
+/* Write a program to print the following pattern:
+*
+**
+***
+****
+***** */
+
+
+#include <stdio.h>
+
+int main()
 {
-int row,col;
-for(row=1;row<=5;row++)
+int i, j;
+
+for(i = 1; i <= 5; i++)
 {
-for(col=1;col<=row;col++)
+for(j = 1; j <= i; j++)
 {
 printf("*");
 }
 printf("\n");
 }
-return 0 ;
+
+return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
