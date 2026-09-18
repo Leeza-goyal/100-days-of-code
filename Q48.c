@@ -1,15 +1,17 @@
-//write a program to print pattern 
-#include<stdio.h>
+#include <stdio.h>
+
 int main()
 {
-int row,col;
-for(row=1;row<=5;row++)
+int i, j;
+
+for(i = 1; i <= 5; i++)
 {
-for(col=1;col<=row;col++)
+for(j = 1; j <= i; j++)
 {
-printf("%d", col);
+printf("%d", j);
 }
 printf("\n");
 }
-return 0 ;
+
+return 0;
 }
